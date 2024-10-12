@@ -25,12 +25,12 @@ Car menambahkan atribut spesifik, yaitu numberOfDoors.
 Motorcycle menambahkan atribut hasSidecar.
 Keduanya mewarisi properti umum seperti licensePlate dan ownerName dari Vehicle.
 
-Encapsulation : diterapkan dengan baik karena setiap properti dalam kelas-kelas ini bersifat private dan hanya dapat diakses atau dimodifikasi menggunakan metode getter dan setter.
+Encapsulation : diterapkan karena setiap properti dalam kelas-kelas ini bersifat private dan hanya dapat diakses atau dimodifikasi menggunakan metode getter dan setter.
 Properti-properti seperti licensePlate, ownerName, numberOfDoors, dan hasSidecar diakses melalui getter dan diubah melalui setter.
 
 Abstraction : diterapkan melalui kelas abstrak Vehicle, yang mendefinisikan metode abstrak displayInfo() yang diimplementasikan di subclass (Car dan Motorcycle).
 
-Interface : VehicleManagement digunakan untuk mendefinisikan metode CRUD:
+Interface : VehicleManagement digunakan untuk mendefinisikan metode CRUD
 addVehicle(): Menambahkan kendaraan ke dalam daftar.
 displayVehicles(): Menampilkan seluruh kendaraan yang terdaftar.
 updateVehicle(): Memperbarui informasi kendaraan.
